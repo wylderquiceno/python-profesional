@@ -8,7 +8,7 @@ def is_palindrome(string: str) -> bool:
 
 
 def run():
-    print(is_palindrome('facundo'))
+    print(is_palindrome(12))
 
 
 if __name__ == '__main__':
