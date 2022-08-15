@@ -1,5 +1,4 @@
-import mypy
+if __name__ == '__main__':
 
-x: int = 1
-y: int = '2'
-print(type(y))
+    hello: str = 'hola mundo'
+    print(hello)
