@@ -1,6 +1,3 @@
-from unicodedata import name
-
-
 def is_palindrome(string: str) -> bool:
 
     string = string.replace(' ', '').lower()

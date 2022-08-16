@@ -1,7 +1,8 @@
-if __name__ == '__main__':
+def main():
+	a = 1
+	def nested():
+		print(a)
+	return nested
 
-    hello: str = 'hola mundo'
-    print(hello)
-
-    # Esto solo se vera en desarrollo
-    print('Hola desarrollador')
+my_func = main()
+my_func()
